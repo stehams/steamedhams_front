@@ -15,7 +15,7 @@ function copyText() {
   document.execCommand("copy");
 }
 
-/*(function () {
+(function () {
 	const second = 1000,
 		  minute = second * 60,
 		  hour = minute * 60,
@@ -33,4 +33,4 @@ function copyText() {
 		document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
 		document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
     }, 0)
-}());*/
+}());
